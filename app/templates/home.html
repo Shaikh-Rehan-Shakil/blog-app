@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block header %}
+<nav class="container mx-auto flex justify-between" aria-label=" Main Navigation Bar ">
+
+  <!-- Page Title -->
+  <a href="/" aria-label="Return to homepage" class="text-2xl font-semibold">Blog</a>
+
+  <!-- Navigation Links -->
+  <ul class="flex items-center space-x-6 text-lg px-2 text-neutral-600">
+    <li>
+      <a href="#" aria-label="Contact me">
+        contact
+      </a>
+    </li>
+    <li>
+      <a href="#" aria-label="About this page">
+        About
+      </a>
+    </li>
+    <li>
+      <a href="#" aria-label="Go to my Portfolio Site">
+        Portfolio
+      </a>
+    </li>
+
+    <!-- Dark-mode toggle icon -->
+    <li>
+      <button type="button" aria-label="toggle user theme" class="block">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+{% endblock %}

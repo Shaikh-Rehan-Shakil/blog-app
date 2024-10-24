@@ -1,0 +1,21 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i app/static/css/input.css -o app/static/css/output.css --minify"
+  },
+  "keywords": [],
+  "author": "Shaikh-Rehan-Shakil",
+  "license": "MIT",
+  "description": "Simple blog app made by me to document my projects.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaikh-Rehan-Shakil/blog-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shaikh-Rehan-Shakil/blog-app/issues"
+  },
+  "homepage": "https://github.com/Shaikh-Rehan-Shakil/blog-app#readme"
+}
